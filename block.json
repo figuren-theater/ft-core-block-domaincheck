@@ -1,0 +1,14 @@
+{
+	"apiVersion": 2,
+	"name": "figurentheater/ft-core-block-domaincheck",
+	"title": "Domaincheck",
+	"category": "widgets",
+	"icon": "rest-api",
+	"description": "Formular zur Abfrage der Verfügbarkeit einer bestimmten Subdomain unterhalb von figuren.theater und puppen.theater",
+	"textdomain": "ft-core-block-domaincheck",
+	"supports": {
+		"html": false
+	},
+	"editorScript": "file:./build/index.js",
+	"style": "file:./build/style-index.css"
+}

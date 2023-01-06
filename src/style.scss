@@ -1,0 +1,24 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-figurentheater-ft-core-block-domaincheck {
+	// background-color: var(--wp-admin-theme-color);
+	// color: #fff;
+	// padding: 2px;
+	input{
+		&:not([type="submit"]){
+			border-radius: var(--wp--custom--border--radius, inherit );
+			box-sizing: border-box;
+			display: block;
+			width: 100%;
+			padding: calc(.5em + 2px);
+			border: 1px solid var(--wp--preset--color--foreground-dimmed, #949494 );
+			font-family: inherit;
+			font-size: inherit;
+		}
+	}
+}

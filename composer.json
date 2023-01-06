@@ -1,0 +1,29 @@
+{
+	"name": "figuren-theater/ft-core-block-domaincheck",
+	"description": "Block showing a simple form to check the availability of a specific subdomain below figuren.theater and puppen.theater.",
+    "homepage": "https://websites.fuer.figuren.theater",
+    "type": "wordpress-plugin",
+    "keywords": ["wordpress", "wordpress-plugin", "site-editor", "blocks", "domaincheck", "subdomains"],
+    "license": "GPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "figuren.theater",
+            "email": "info@figuren.theater"
+        },
+        {
+            "name": "Carsten Bach",
+            "email": "mail@carsten-bach.de",
+            "homepage": "https://carsten-bach.de",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "email": "info@figuren.theater",
+        "issues": "https://github.com/figuren-theater/ft-core-block-domaincheck/issues",
+        "source": "https://github.com/figuren-theater/ft-core-block-domaincheck"
+    },
+	"require": {
+        "php": ">=7.1",
+        "johnpbloch/wordpress": "^5.9"
+	}
+}
