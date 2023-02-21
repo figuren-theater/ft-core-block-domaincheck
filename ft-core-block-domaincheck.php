@@ -221,7 +221,7 @@ function validate_domain_request( $domain_request ) {
 	// remove_accents()
 
 	$data = new \stdClass;
-	$data->domain_request = $domain_request;
+	$data->domain_request = \sanitize_text_field( $domain_request );
 	$data->validated = [];
 	/**
 	 * Because \wpmu_validate_blog_signup() acts on the global $domain,
