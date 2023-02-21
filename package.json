@@ -16,11 +16,11 @@
 		"packages-update": "wp-scripts packages-update"
 	},
 	"dependencies": {
-		"@wordpress/block-editor": "^5.2.8",
-		"@wordpress/blocks": "^7.0.4",
-		"@wordpress/i18n": "^3.18.0"
+		"@wordpress/block-editor": "^11.4.0",
+		"@wordpress/blocks": "^12.4.0",
+		"@wordpress/i18n": "^4.27.0"
 	},
 	"devDependencies": {
-		"@wordpress/scripts": "^13.0.3"
+		"@wordpress/scripts": "^25.4.0"
 	}
 }
