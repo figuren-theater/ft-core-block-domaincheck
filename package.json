@@ -1,6 +1,6 @@
 {
 	"name": "ft-core-block-domaincheck",
-	"version": "0.1.0",
+	"version": "0.1.2",
 	"description": "Formular zur Abfrage der Verfügbarkeit einer bestimmten Subdomain unterhalb von figuren.theater und puppen.theater",
 	"author": "Carsten Bach",
 	"license": "GPL-3.0-or-later",

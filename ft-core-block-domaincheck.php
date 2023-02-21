@@ -4,7 +4,7 @@ namespace Figuren_Theater\Network\Blocks;
 /**
  * Plugin Name:     f.t | CORE Block "Domaincheck"
  * Description:     Formular zur Abfrage der Verfügbarkeit einer bestimmten Subdomain unterhalb von figuren.theater und puppen.theater
- * Version:         0.1.1
+ * Version:         0.1.2
  * Author:          Carsten Bach
  * License:         GPL-2.0-or-later
  * License URI:     https://www.gnu.org/licenses/gpl-2.0.html
