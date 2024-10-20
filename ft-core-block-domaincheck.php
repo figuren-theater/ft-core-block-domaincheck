@@ -52,7 +52,7 @@ function figurentheater_ft_core_block_domaincheck_block_init() {
 	#	filemtime( "$dir/$editor_css" )
 	#);
 
-	// 
+	//
 	$style_css = 'build/style-index.css';
 	\wp_register_style(
 		'figurentheater-ft-core-block-domaincheck-block',
@@ -136,7 +136,7 @@ function figurentheater_ft_core_block_domaincheck_block__frontend_scripts() {
 #	if (!some_posts_have_block( 'figurentheater/ft-core-block-domaincheck' ))
 #		return;
 
-	// todo
+	// todo #39
 	// add check for is_archive()
 	// @see: https://richtabor.com/has-blocks-gutenberg-scripts/
 	// @see: https://github.com/WordPress/gutenberg/issues/14758
@@ -195,8 +195,8 @@ function some_posts_have_block( $block_type ) {
  * Answers if the given name is available as a subdomain
  * of figuren.theater or puppen.theater
  *
- * @todo Add caching
- * @todo  reduce answered JSON to needed, for security
+ * @todo #40 Add caching to check_domain_request()
+ * @todo #41  reduce answered JSON to needed, for security
  *
  * @param  string $domain_request requested domain-name
  * @return JSON                 [description]

@@ -65,7 +65,8 @@ const requestDomain = async ( domain_name, target ) => {
 // console.log(em)
 
 			// const msg = em;
-			// TODO // use https://developer.mozilla.org/de/docs/Web/API/Element/insertAdjacentHTML
+			// TODO #38 Better use insertAdjacentHTML
+			// https://developer.mozilla.org/de/docs/Web/API/Element/insertAdjacentHTML
 			target.parentNode.insertBefore( generateResponse( msg ), target.nextSibling );
 		} );
 
